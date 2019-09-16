@@ -1,2 +1,2 @@
-git "ssh://git@dvcs.deloittedigital.com.au:22/ddmcd/ddrouter.git" "4b06e78e7a579b53c79ff027e67a4deaf51b6892"
+git "ssh://git@dvcs.deloittedigital.com.au:22/ddmcd/ddrouter.git" "3514a1bb3d629e8fa3463f55e71582f2ab8055a6"
 github "ReactiveX/RxSwift" "5.0.1"
