@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		C981C28D232F3B7D00738C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C981C28C232F3B7D00738C6D /* AppDelegate.swift */; };
 		C981C28F232F3B7D00738C6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C981C28E232F3B7D00738C6D /* ViewController.swift */; };
-		C981C292232F3B7D00738C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C981C290232F3B7D00738C6D /* Main.storyboard */; };
 		C981C294232F3B7F00738C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C981C293232F3B7F00738C6D /* Assets.xcassets */; };
 		C981C297232F3B7F00738C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C981C295232F3B7F00738C6D /* LaunchScreen.storyboard */; };
 		C981C2A2232F3B7F00738C6D /* DDRouterTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C981C2A1232F3B7F00738C6D /* DDRouterTestTests.swift */; };
+		C981C2B1232F3BFD00738C6D /* TestEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C981C2B0232F3BFD00738C6D /* TestEndpoint.swift */; };
+		C981C2B3232F410A00738C6D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C981C2B2232F410A00738C6D /* ViewController.xib */; };
+		C981C2C4232F4DA500738C6D /* DDRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C981C2C3232F4DA400738C6D /* DDRouter.framework */; };
+		C981C2C6232F4DD300738C6D /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C981C2C5232F4DD300738C6D /* RxSwift.framework */; };
+		C981C2C8232F4DD500738C6D /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C981C2C7232F4DD500738C6D /* RxCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,17 +29,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C981C2AF232F3BDE00738C6D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		C981C289232F3B7D00738C6D /* DDRouterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDRouterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C981C28C232F3B7D00738C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C981C28E232F3B7D00738C6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C981C291232F3B7D00738C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C981C293232F3B7F00738C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C981C296232F3B7F00738C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C981C298232F3B7F00738C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C981C29D232F3B7F00738C6D /* DDRouterTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDRouterTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C981C2A1232F3B7F00738C6D /* DDRouterTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDRouterTestTests.swift; sourceTree = "<group>"; };
 		C981C2A3232F3B7F00738C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C981C2B0232F3BFD00738C6D /* TestEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEndpoint.swift; sourceTree = "<group>"; };
+		C981C2B2232F410A00738C6D /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		C981C2C3232F4DA400738C6D /* DDRouter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DDRouter.framework; path = Carthage/Build/iOS/DDRouter.framework; sourceTree = "<group>"; };
+		C981C2C5232F4DD300738C6D /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		C981C2C7232F4DD500738C6D /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C981C2C4232F4DA500738C6D /* DDRouter.framework in Frameworks */,
+				C981C2C6232F4DD300738C6D /* RxSwift.framework in Frameworks */,
+				C981C2C8232F4DD500738C6D /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +86,7 @@
 				C981C28B232F3B7D00738C6D /* DDRouterTest */,
 				C981C2A0232F3B7F00738C6D /* DDRouterTestTests */,
 				C981C28A232F3B7D00738C6D /* Products */,
+				C981C2B6232F433F00738C6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +104,8 @@
 			children = (
 				C981C28C232F3B7D00738C6D /* AppDelegate.swift */,
 				C981C28E232F3B7D00738C6D /* ViewController.swift */,
-				C981C290232F3B7D00738C6D /* Main.storyboard */,
+				C981C2B0232F3BFD00738C6D /* TestEndpoint.swift */,
+				C981C2B2232F410A00738C6D /* ViewController.xib */,
 				C981C293232F3B7F00738C6D /* Assets.xcassets */,
 				C981C295232F3B7F00738C6D /* LaunchScreen.storyboard */,
 				C981C298232F3B7F00738C6D /* Info.plist */,
@@ -96,6 +122,16 @@
 			path = DDRouterTestTests;
 			sourceTree = "<group>";
 		};
+		C981C2B6232F433F00738C6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C981C2C7232F4DD500738C6D /* RxCocoa.framework */,
+				C981C2C5232F4DD300738C6D /* RxSwift.framework */,
+				C981C2C3232F4DA400738C6D /* DDRouter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C981C2A6232F3B7F00738C6D /* Build configuration list for PBXNativeTarget "DDRouterTest" */;
 			buildPhases = (
+				C981C2C2232F4B6500738C6D /* ShellScript */,
 				C981C285232F3B7D00738C6D /* Sources */,
 				C981C286232F3B7D00738C6D /* Frameworks */,
 				C981C287232F3B7D00738C6D /* Resources */,
+				C981C2AF232F3BDE00738C6D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,8 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C981C297232F3B7F00738C6D /* LaunchScreen.storyboard in Resources */,
+				C981C2B3232F410A00738C6D /* ViewController.xib in Resources */,
 				C981C294232F3B7F00738C6D /* Assets.xcassets in Resources */,
-				C981C292232F3B7D00738C6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +230,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C981C2C2232F4B6500738C6D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/DDRouter.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/DDRouter.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C981C285232F3B7D00738C6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -199,6 +264,7 @@
 			files = (
 				C981C28F232F3B7D00738C6D /* ViewController.swift in Sources */,
 				C981C28D232F3B7D00738C6D /* AppDelegate.swift in Sources */,
+				C981C2B1232F3BFD00738C6D /* TestEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +287,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C981C290232F3B7D00738C6D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C981C291232F3B7D00738C6D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C981C295232F3B7F00738C6D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,6 +420,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PP3R22V3AN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DDRouterTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,6 +443,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PP3R22V3AN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DDRouterTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

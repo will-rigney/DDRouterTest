@@ -11,11 +11,17 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-
+    let window = UIWindow()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        let vc = ViewController()
+
+//        let window = UIWindow()
+        self.window.rootViewController = vc
+        self.window.makeKeyAndVisible()
+//        self.window = window
         return true
     }
 
