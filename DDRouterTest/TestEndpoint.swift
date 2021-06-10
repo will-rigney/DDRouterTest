@@ -1,34 +1,31 @@
-//
-//  TestEndpoint.swift
-//  DDRouterTest
-//
-//  Created by Rigney, Will (AU - Sydney) on 16/9/19.
-//  Copyright © 2019 Will Rigney. All rights reserved.
-//
-
 import Foundation
 import DDRouter
 
 struct ResponseModel: Decodable {
-    let _id: String
-    let en: String
-    let author: String
+    let id: Int
+    let title: String
+//    let author: String
+}
+
+struct ErrorModel: APIErrorModelProtocol, Decodable {
+    let message: String
 }
 
 enum TestEndpoint {
     case random
 }
 
+
 extension TestEndpoint: EndpointType {
 
     var baseURL: URL {
-        return URL(string: "https://programming-quotes-api.herokuapp.com")!
+        return URL(string: "https://jsonplaceholder.typicode.com")!
     }
 
     var path: String {
         switch self {
         case .random:
-            return "/quotes/random"
+            return "/todos/1"
         }
     }
 
@@ -49,7 +46,6 @@ extension TestEndpoint: EndpointType {
             return .request
         }
     }
-
 
     var headers: HTTPHeaders? {
         return [:]

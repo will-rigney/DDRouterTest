@@ -13,6 +13,8 @@ class QuotesViewController: UIViewController {
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
 
+    var vm: QuotesViewModel!
+
     // networking
     private let router = Router<TestEndpoint, ErrorModel>()
 

@@ -1,0 +1,43 @@
+PODS:
+  - DDMockiOS (2.0)
+  - DDRouter (0.5.2):
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.2)
+  - SwiftGen (6.4.0)
+
+DEPENDENCIES:
+  - DDMockiOS (from `../../ddmock`)
+  - DDRouter (from `../github/ddrouter`)
+  - RxCocoa
+  - RxSwift
+  - SwiftGen
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftGen
+
+EXTERNAL SOURCES:
+  DDMockiOS:
+    :path: "../../ddmock"
+  DDRouter:
+    :path: "../github/ddrouter"
+
+SPEC CHECKSUMS:
+  DDMockiOS: 453d3b8d3937160218dd1f1fa4cbaa1b2a27185e
+  DDRouter: 489bbd9ce4e7a71fb2a4ea075d770cc2a6811878
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
+  SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
+
+PODFILE CHECKSUM: 141f7511671dda78dd98cbb3452fcb6e856096e9
+
+COCOAPODS: 1.10.1
