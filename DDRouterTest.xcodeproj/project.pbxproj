@@ -16,8 +16,6 @@
 		C981C297232F3B7F00738C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C981C295232F3B7F00738C6D /* LaunchScreen.storyboard */; };
 		C981C2A2232F3B7F00738C6D /* DDRouterTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C981C2A1232F3B7F00738C6D /* DDRouterTestTests.swift */; };
 		C981C2B1232F3BFD00738C6D /* TestEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C981C2B0232F3BFD00738C6D /* TestEndpoint.swift */; };
-		C981C2B3232F410A00738C6D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C981C2B2232F410A00738C6D /* ViewController.xib */; };
-		C9B28F2626718AAD007C31A9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C9B28F2526718AAD007C31A9 /* Settings.bundle */; };
 		C9B28F392671A6A8007C31A9 /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B28F382671A6A8007C31A9 /* QuotesViewModel.swift */; };
 		C9B28F3E2671A751007C31A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B28F3D2671A751007C31A9 /* Main.storyboard */; };
 		C9B28FD42671EBF3007C31A9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B28FD32671EBF3007C31A9 /* Coordinator.swift */; };
@@ -28,6 +26,8 @@
 		C9B2900A2671F302007C31A9 /* Storyboard+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B290072671F302007C31A9 /* Storyboard+Generated.swift */; };
 		C9B2900C2671F378007C31A9 /* UIViewController+embed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B28FE12671EC1D007C31A9 /* UIViewController+embed.swift */; };
 		C9B290102671FB2C007C31A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2900F2671FB2C007C31A9 /* SceneDelegate.swift */; };
+		C9B290172672042A007C31A9 /* HTTPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B290162672042A007C31A9 /* HTTPHelper.swift */; };
+		C9B290212674ACE5007C31A9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C9B290202674ACE5007C31A9 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +69,6 @@
 		C981C2A1232F3B7F00738C6D /* DDRouterTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDRouterTestTests.swift; sourceTree = "<group>"; };
 		C981C2A3232F3B7F00738C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C981C2B0232F3BFD00738C6D /* TestEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEndpoint.swift; sourceTree = "<group>"; };
-		C981C2B2232F410A00738C6D /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		C9B28F2526718AAD007C31A9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = SOURCE_ROOT; };
 		C9B28F382671A6A8007C31A9 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
 		C9B28F3D2671A751007C31A9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C9B28FD32671EBF3007C31A9 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -81,23 +79,19 @@
 		C9B28FDD2671EC1D007C31A9 /* UIColor+adjustSaturation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+adjustSaturation.swift"; sourceTree = "<group>"; };
 		C9B28FDE2671EC1D007C31A9 /* UserDefault+AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+AppSettings.swift"; sourceTree = "<group>"; };
 		C9B28FDF2671EC1D007C31A9 /* UINavigationController+ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+ProgressView.swift"; sourceTree = "<group>"; };
-		C9B28FE02671EC1D007C31A9 /* AnimationView+AnimationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnimationView+AnimationType.swift"; sourceTree = "<group>"; };
 		C9B28FE12671EC1D007C31A9 /* UIViewController+embed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+embed.swift"; sourceTree = "<group>"; };
 		C9B28FE22671EC1D007C31A9 /* UITabBarController+setTabBarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+setTabBarHidden.swift"; sourceTree = "<group>"; };
 		C9B28FE62671EC1D007C31A9 /* UIViewController+constrainKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+constrainKeyboard.swift"; sourceTree = "<group>"; };
 		C9B28FE72671EC1D007C31A9 /* UITableView+resizeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+resizeHeader.swift"; sourceTree = "<group>"; };
 		C9B28FE82671EC1D007C31A9 /* UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
-		C9B28FEA2671EC1D007C31A9 /* ArticleRoutingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRoutingHelper.swift; sourceTree = "<group>"; };
-		C9B28FEB2671EC1D007C31A9 /* Error+ErrorTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+ErrorTypes.swift"; sourceTree = "<group>"; };
-		C9B28FEC2671EC1D007C31A9 /* HTTPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHelper.swift; sourceTree = "<group>"; };
-		C9B28FED2671EC1D007C31A9 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
-		C9B28FEE2671EC1D007C31A9 /* IntercomHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomHelper.swift; sourceTree = "<group>"; };
 		C9B28FF32671EC52007C31A9 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		C9B290012671F2B4007C31A9 /* Localisable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localisable.strings; sourceTree = "<group>"; };
 		C9B290052671F302007C31A9 /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
 		C9B290062671F302007C31A9 /* Assets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Assets+Generated.swift"; sourceTree = "<group>"; };
 		C9B290072671F302007C31A9 /* Storyboard+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Generated.swift"; sourceTree = "<group>"; };
 		C9B2900F2671FB2C007C31A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9B290162672042A007C31A9 /* HTTPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTTPHelper.swift; path = ../../../../ioof/IOOF/Helpers/HTTPHelper.swift; sourceTree = "<group>"; };
+		C9B290202674ACE5007C31A9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		D7B32BEEA5B35946E5AB196C /* Pods-DDRouterTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDRouterTest.release.xcconfig"; path = "Target Support Files/Pods-DDRouterTest/Pods-DDRouterTest.release.xcconfig"; sourceTree = "<group>"; };
 		FC5BD0BD0C85876CCDE25513 /* Pods_DDRouterTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDRouterTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -147,7 +141,6 @@
 			children = (
 				C981C293232F3B7F00738C6D /* Assets.xcassets */,
 				C981C298232F3B7F00738C6D /* Info.plist */,
-				C9B28F2526718AAD007C31A9 /* Settings.bundle */,
 				C9815DAE2670A1DC0056AC3E /* mockfiles */,
 				C9B290012671F2B4007C31A9 /* Localisable.strings */,
 			);
@@ -157,6 +150,7 @@
 		C981C280232F3B7D00738C6D = {
 			isa = PBXGroup;
 			children = (
+				C9B290202674ACE5007C31A9 /* Settings.bundle */,
 				C9B28FF32671EC52007C31A9 /* swiftgen.yml */,
 				C981C28B232F3B7D00738C6D /* DDRouterTest */,
 				C981C2A0232F3B7F00738C6D /* DDRouterTestTests */,
@@ -178,15 +172,14 @@
 		C981C28B232F3B7D00738C6D /* DDRouterTest */ = {
 			isa = PBXGroup;
 			children = (
-				C9B28FD22671EBDF007C31A9 /* Protocols */,
-				C9815DAB2670A1BC0056AC3E /* Resources */,
 				C981C28C232F3B7D00738C6D /* AppDelegate.swift */,
 				C9B2900F2671FB2C007C31A9 /* SceneDelegate.swift */,
 				C9B28FD62671EC05007C31A9 /* AppCoordinator.swift */,
-				C9B28F402671A759007C31A9 /* View */,
-				C981C2B0232F3BFD00738C6D /* TestEndpoint.swift */,
-				C981C2B2232F410A00738C6D /* ViewController.xib */,
+				C9815DAB2670A1BC0056AC3E /* Resources */,
 				C9B28F412671A772007C31A9 /* Storyboard */,
+				C9B28F402671A759007C31A9 /* View */,
+				C9B2902D2674E90D007C31A9 /* Endpoint */,
+				C9B28FD22671EBDF007C31A9 /* Protocols */,
 				C9B28FD92671EC1D007C31A9 /* Extensions */,
 				C9B28FE92671EC1D007C31A9 /* Helpers */,
 				C9B28FEF2671EC2C007C31A9 /* Generated */,
@@ -238,7 +231,6 @@
 				C9B28FDD2671EC1D007C31A9 /* UIColor+adjustSaturation.swift */,
 				C9B28FDE2671EC1D007C31A9 /* UserDefault+AppSettings.swift */,
 				C9B28FDF2671EC1D007C31A9 /* UINavigationController+ProgressView.swift */,
-				C9B28FE02671EC1D007C31A9 /* AnimationView+AnimationType.swift */,
 				C9B28FE12671EC1D007C31A9 /* UIViewController+embed.swift */,
 				C9B28FE22671EC1D007C31A9 /* UITabBarController+setTabBarHidden.swift */,
 				C9B28FE62671EC1D007C31A9 /* UIViewController+constrainKeyboard.swift */,
@@ -251,11 +243,7 @@
 		C9B28FE92671EC1D007C31A9 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				C9B28FEA2671EC1D007C31A9 /* ArticleRoutingHelper.swift */,
-				C9B28FEB2671EC1D007C31A9 /* Error+ErrorTypes.swift */,
-				C9B28FEC2671EC1D007C31A9 /* HTTPHelper.swift */,
-				C9B28FED2671EC1D007C31A9 /* DateHelper.swift */,
-				C9B28FEE2671EC1D007C31A9 /* IntercomHelper.swift */,
+				C9B290162672042A007C31A9 /* HTTPHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -268,6 +256,14 @@
 				C9B290052671F302007C31A9 /* Strings+Generated.swift */,
 			);
 			path = Generated;
+			sourceTree = "<group>";
+		};
+		C9B2902D2674E90D007C31A9 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				C981C2B0232F3BFD00738C6D /* TestEndpoint.swift */,
+			);
+			path = Endpoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,12 +354,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C981C297232F3B7F00738C6D /* LaunchScreen.storyboard in Resources */,
-				C981C2B3232F410A00738C6D /* ViewController.xib in Resources */,
-				C9B28F2626718AAD007C31A9 /* Settings.bundle in Resources */,
 				C9B290022671F2B4007C31A9 /* Localisable.strings in Resources */,
 				C9B28F3E2671A751007C31A9 /* Main.storyboard in Resources */,
 				C9815DAF2670A1DC0056AC3E /* mockfiles in Resources */,
 				C981C294232F3B7F00738C6D /* Assets.xcassets in Resources */,
+				C9B290212674ACE5007C31A9 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +432,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\npython3 \"${PODS_ROOT}/DDMockiOS/Generate/ddmock.py\" \"DDRouterTest/Resources/mockfiles\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\npython3 \"${SRCROOT}/../../ddmock/Generate/ddmock.py\" \"DDRouterTest/Resources/mockfiles\"\n";
 		};
 		C9B28FFF2671F25B007C31A9 /* Swift Gen */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -484,6 +479,7 @@
 				C9B28FD72671EC05007C31A9 /* AppCoordinator.swift in Sources */,
 				C9B2900A2671F302007C31A9 /* Storyboard+Generated.swift in Sources */,
 				C981C28F232F3B7D00738C6D /* QuotesViewController.swift in Sources */,
+				C9B290172672042A007C31A9 /* HTTPHelper.swift in Sources */,
 				C981C28D232F3B7D00738C6D /* AppDelegate.swift in Sources */,
 				C9B28FD42671EBF3007C31A9 /* Coordinator.swift in Sources */,
 				C9B290082671F302007C31A9 /* Strings+Generated.swift in Sources */,

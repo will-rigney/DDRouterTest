@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // unwieldy
         let protocolClasses = DDMockURLProtocolClass.insertProtocolClass(configuration.protocolClasses ?? [])
+
         configuration.protocolClasses = protocolClasses
 
         // init ddrouter

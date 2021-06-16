@@ -47,6 +47,7 @@ class QuotesViewController: UIViewController {
                         title: "Quote not found, please try again later."))
     //                    author: ""))
             }
+            .debug()
             .subscribe(
                 onNext: { result in
                     DispatchQueue.main.async {
